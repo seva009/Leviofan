@@ -1,0 +1,1 @@
+void ieee80211_freedom_output(char* netif, void* buf, unsigned short len);
