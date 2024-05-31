@@ -19,14 +19,6 @@ void setup() {
   initScan(&found);
   aps = scan();
   uptime = millis();
-  //   WiFi.begin("DIR-300", "789456123");
-  //   while (WiFi.status() != WL_CONNECTED) {
-
-  //   delay(1000);
-  //   Serial.println("Connecting..");
-
-  // }
-  // Serial.println(WiFi.channel());
   Serial.print("End of init\n");
 }
 
